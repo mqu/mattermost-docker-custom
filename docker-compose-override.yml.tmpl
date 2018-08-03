@@ -1,0 +1,19 @@
+version: '3.1'
+
+# use this template to override defaults values.
+# mv docker-compose-override.yml.tmpl docker-compose-override.yml
+# link : https://docs.docker.com/compose/extends/
+
+services:
+
+  db:
+  #     restart: unless-stopped
+  #     expose:
+  #       - 3306
+
+  app:
+    # overring ports will not work : 
+    # https://stackoverflow.com/questions/48851190/docker-compose-override-a-ports-property-instead-of-merging-it
+    # ports:
+    # - "8041:8000"
+
