@@ -6,6 +6,10 @@ this repository contains an alternative to official mattermost dockerized enviro
 * mariadb is used,
 * auto import SQL at startup
 
+this environment :
+* is based on official Mattermost Docker container https://hub.docker.com/r/mattermost/mattermost-prod-app/
+* use docker-compose to build and run full stack application : Mariadb and Mattermost application 
+* you need to add a web frontend : you may use Apache or Nginx. An apache2 configuration file is provided in assets/apache2/ directory.
 
 ## usage
 
@@ -29,6 +33,11 @@ this repository contains an alternative to official mattermost dockerized enviro
 
 	docker-compose build
 	docker-compose up
+
+## upgrade 
+
+fixme, fixme ...
+
 
 ## links
 
