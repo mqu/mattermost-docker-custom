@@ -20,6 +20,7 @@ this environment :
 	export UID=$(id -i)
 	export GID=$(id -g)
 
+	# this directory will contain all application data (mattermost and mariadb)
 	mkdir -p ./volumes/app/mattermost/{data,logs,config}
 
 	# importing data from an existing mattermost instance :
@@ -33,6 +34,12 @@ this environment :
 
 	docker-compose build
 	docker-compose up
+	
+	# to run as daemon, add -d option 
+	docker-compose up -d
+
+
+
 
 ## upgrade 
 
