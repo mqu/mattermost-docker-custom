@@ -51,3 +51,4 @@ fixme, fixme ...
 * https://github.com/mattermost/mattermost-docker
 * https://hub.docker.com/r/mattermost/mattermost-prod-app/
 * https://github.com/mqu/mattermost-docker-custom
+* https://hub.docker.com/r/mqu31/mattermost-docker-team-edition/
